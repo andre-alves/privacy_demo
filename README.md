@@ -1,6 +1,6 @@
-# privacy_demo
-
 Demo showcasing the differences between Bazel and xcodebuild when generating `.ipa` with signed xcframeworks.
+
+Tested with Xcode 15.2
 
 ## Bazel
 
@@ -18,4 +18,6 @@ Check `bazel-out/` outputs.
 
 ## Xcode
 
-TBD.
+- Open `xcode/PrivacyDemo/PrivacyDemo.xcodeproj`;
+- Configure the code sign settings (to be able to generate the archive);
+- Product -> Archive
