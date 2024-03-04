@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  PrivacyDemo
-//
-//  Created by Andre Alves on 04/03/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -12,7 +5,6 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundStyle(.tint)
             Text("Hello, world!")
         }
         .padding()
