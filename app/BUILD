@@ -16,7 +16,7 @@ swift_library(
     srcs = glob(["sources/**/*.swift"]),
     module_name = "app",
     deps = [
-        "//frameworks:Lottie",
+        "//xcframeworks:Lottie",
     ],
 )
 
